@@ -1,7 +1,7 @@
 # Prociments
 
 ## Description
-A self-educational iOS experiments with Procotols.
+A self-educational iOS experiment with Procotols.
 
 ## Frameworks
 Swift - SwiftUI
