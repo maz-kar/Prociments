@@ -72,5 +72,5 @@ struct ProtocolsView: View {
 }
 
 #Preview {
-    ProtocolsView(colorTheme: AlternativeColorTheme(), dataSource: ButtonDataSource())
+    ProtocolsView(colorTheme: DefaultColorTheme(), dataSource: ButtonDataSource())
 }
