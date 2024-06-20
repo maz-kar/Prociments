@@ -11,29 +11,9 @@
 		6B68717B2C0A19B6003F096F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68717A2C0A19B6003F096F /* ContentView.swift */; };
 		6B68717D2C0A19B8003F096F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B68717C2C0A19B8003F096F /* Assets.xcassets */; };
 		6B6871802C0A19B8003F096F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B68717F2C0A19B8003F096F /* Preview Assets.xcassets */; };
-		6B68718A2C0A19B8003F096F /* ProcimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6871892C0A19B8003F096F /* ProcimentsTests.swift */; };
-		6B6871942C0A19B8003F096F /* ProcimentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6871932C0A19B8003F096F /* ProcimentsUITests.swift */; };
-		6B6871962C0A19B8003F096F /* ProcimentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6871952C0A19B8003F096F /* ProcimentsUITestsLaunchTests.swift */; };
 		6B6871A32C0A1AD7003F096F /* ProtocolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6871A22C0A1AD7003F096F /* ProtocolsView.swift */; };
 		6B6871DF2C0B7B88003F096F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6B6871DE2C0B7B88003F096F /* README.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6B6871862C0A19B8003F096F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B68716D2C0A19B6003F096F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B6871742C0A19B6003F096F;
-			remoteInfo = Prociments;
-		};
-		6B6871902C0A19B8003F096F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B68716D2C0A19B6003F096F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B6871742C0A19B6003F096F;
-			remoteInfo = Prociments;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6B6871752C0A19B6003F096F /* Prociments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prociments.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +21,7 @@
 		6B68717A2C0A19B6003F096F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B68717C2C0A19B8003F096F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B68717F2C0A19B8003F096F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6B6871852C0A19B8003F096F /* ProcimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6871892C0A19B8003F096F /* ProcimentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcimentsTests.swift; sourceTree = "<group>"; };
-		6B68718F2C0A19B8003F096F /* ProcimentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcimentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6871932C0A19B8003F096F /* ProcimentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcimentsUITests.swift; sourceTree = "<group>"; };
 		6B6871952C0A19B8003F096F /* ProcimentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcimentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6B6871A22C0A1AD7003F096F /* ProtocolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsView.swift; sourceTree = "<group>"; };
@@ -52,20 +30,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6B6871722C0A19B6003F096F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B6871822C0A19B8003F096F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B68718C2C0A19B8003F096F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				6B6871752C0A19B6003F096F /* Prociments.app */,
-				6B6871852C0A19B8003F096F /* ProcimentsTests.xctest */,
-				6B68718F2C0A19B8003F096F /* ProcimentsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,42 +115,6 @@
 			productReference = 6B6871752C0A19B6003F096F /* Prociments.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B6871842C0A19B8003F096F /* ProcimentsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B68719C2C0A19B8003F096F /* Build configuration list for PBXNativeTarget "ProcimentsTests" */;
-			buildPhases = (
-				6B6871812C0A19B8003F096F /* Sources */,
-				6B6871822C0A19B8003F096F /* Frameworks */,
-				6B6871832C0A19B8003F096F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B6871872C0A19B8003F096F /* PBXTargetDependency */,
-			);
-			name = ProcimentsTests;
-			productName = ProcimentsTests;
-			productReference = 6B6871852C0A19B8003F096F /* ProcimentsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6B68718E2C0A19B8003F096F /* ProcimentsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B68719F2C0A19B8003F096F /* Build configuration list for PBXNativeTarget "ProcimentsUITests" */;
-			buildPhases = (
-				6B68718B2C0A19B8003F096F /* Sources */,
-				6B68718C2C0A19B8003F096F /* Frameworks */,
-				6B68718D2C0A19B8003F096F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B6871912C0A19B8003F096F /* PBXTargetDependency */,
-			);
-			name = ProcimentsUITests;
-			productName = ProcimentsUITests;
-			productReference = 6B68718F2C0A19B8003F096F /* ProcimentsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,14 +127,6 @@
 				TargetAttributes = {
 					6B6871742C0A19B6003F096F = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					6B6871842C0A19B8003F096F = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 6B6871742C0A19B6003F096F;
-					};
-					6B68718E2C0A19B8003F096F = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 6B6871742C0A19B6003F096F;
 					};
 				};
 			};
@@ -226,8 +144,6 @@
 			projectRoot = "";
 			targets = (
 				6B6871742C0A19B6003F096F /* Prociments */,
-				6B6871842C0A19B8003F096F /* ProcimentsTests */,
-				6B68718E2C0A19B8003F096F /* ProcimentsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,20 +156,6 @@
 				6B6871DF2C0B7B88003F096F /* README.md in Resources */,
 				6B6871802C0A19B8003F096F /* Preview Assets.xcassets in Resources */,
 				6B68717D2C0A19B8003F096F /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B6871832C0A19B8003F096F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B68718D2C0A19B8003F096F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,37 +172,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B6871812C0A19B8003F096F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B68718A2C0A19B8003F096F /* ProcimentsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B68718B2C0A19B8003F096F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B6871962C0A19B8003F096F /* ProcimentsUITestsLaunchTests.swift in Sources */,
-				6B6871942C0A19B8003F096F /* ProcimentsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6B6871872C0A19B8003F096F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B6871742C0A19B6003F096F /* Prociments */;
-			targetProxy = 6B6871862C0A19B8003F096F /* PBXContainerItemProxy */;
-		};
-		6B6871912C0A19B8003F096F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B6871742C0A19B6003F096F /* Prociments */;
-			targetProxy = 6B6871902C0A19B8003F096F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6B6871972C0A19B8003F096F /* Debug */ = {
@@ -480,82 +352,6 @@
 			};
 			name = Release;
 		};
-		6B68719D2C0A19B8003F096F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3LU756Z7J5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maziarlayeghkar.ProcimentsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prociments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prociments";
-			};
-			name = Debug;
-		};
-		6B68719E2C0A19B8003F096F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3LU756Z7J5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maziarlayeghkar.ProcimentsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prociments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prociments";
-			};
-			name = Release;
-		};
-		6B6871A02C0A19B8003F096F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3LU756Z7J5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maziarlayeghkar.ProcimentsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Prociments;
-			};
-			name = Debug;
-		};
-		6B6871A12C0A19B8003F096F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3LU756Z7J5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maziarlayeghkar.ProcimentsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Prociments;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,24 +369,6 @@
 			buildConfigurations = (
 				6B68719A2C0A19B8003F096F /* Debug */,
 				6B68719B2C0A19B8003F096F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B68719C2C0A19B8003F096F /* Build configuration list for PBXNativeTarget "ProcimentsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B68719D2C0A19B8003F096F /* Debug */,
-				6B68719E2C0A19B8003F096F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B68719F2C0A19B8003F096F /* Build configuration list for PBXNativeTarget "ProcimentsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B6871A02C0A19B8003F096F /* Debug */,
-				6B6871A12C0A19B8003F096F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
